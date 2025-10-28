@@ -10,7 +10,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Клонировать репозиторий
+        uses: actions/checkout@v4 
+      
       - name: Установить Python
         uses: actions/setup-python@v4
         with:
