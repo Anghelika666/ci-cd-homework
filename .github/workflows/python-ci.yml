@@ -19,5 +19,5 @@ jobs:
       - name: Установить зависимости
         run: pip install pytest
 
-      - name: Запустить тесты
+      - name: Run tests
         run: pytest
